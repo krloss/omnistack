@@ -1,5 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
+const path = require('path');
 
 const routes = require('./config/routes');
 
@@ -18,7 +20,9 @@ mongoose.connect('mongodb+srv://air-cnc:41r-cnc@cluster0-fv3fg.gcp.mongodb.net/t
 // req.body -> message request
 // req.headers -> header param
 
+app.use(cors());
 app.use(express.json())
+app.use('/files',express.static(path.resolve(__dirname,'..','uploads')));
 app.use(routes);
 
 app.listen(4321);
