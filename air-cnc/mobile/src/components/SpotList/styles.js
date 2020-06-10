@@ -39,10 +39,9 @@ const styles = StyleSheet.create({
   },
 
   price: {
-    fontSize: 25,
-    fontWeight: 'bold',
-    color: '#333',
-    marginTop: 10
+    fontSize: 15,
+    color: '#999',
+    marginTop: 5
   },
 
   button: {
@@ -51,8 +50,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 2,
-    marginTop: 15,
-    paddingHorizontal:20
+    marginTop: 15
   },
 
   buttonText: {

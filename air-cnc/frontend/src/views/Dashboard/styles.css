@@ -30,28 +30,30 @@ ul.spot-list li span {
     color: #999;
 }
 
-ul.notifications {
+ul.book-list {
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-ul.notifications li {
+ul.book-list li {
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 10px;
 }
 
-ul.notifications li button {
+ul.book-list li button {
     margin-right: 10px;
-    border: o;
+    border: 0;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 5px;
     cursor: pointer;
+    background: #fff;
 }
 
-ul.notifications li button.accept {
+ul.book-list li button.accept {
     color: #84c870;
 }
 
-ul.notifications li button.reject {
+ul.book-list li button.reject {
     color: #e55e5e;
 }

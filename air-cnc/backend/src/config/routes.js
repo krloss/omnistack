@@ -16,4 +16,6 @@ routes.post('/spots/:spot_id/bookings',Booking.save);
 
 routes.get('/dashboard',Dashboard.show);
 
+routes.put('/bookings/:booking_id',Booking.update);
+
 module.exports = routes;
