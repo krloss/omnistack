@@ -1,0 +1,27 @@
+ul.book-list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+ul.book-list li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+ul.book-list li button {
+  margin-right: 10px;
+  border: 0;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+  background: #fff;
+}
+
+ul.book-list li button.accept {
+  color: #84c870;
+}
+
+ul.book-list li button.reject {
+  color: #e55e5e;
+}
