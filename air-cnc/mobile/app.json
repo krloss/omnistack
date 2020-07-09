@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AirCnC",
-    "slug": "mobile",
+    "slug": "air-cnc",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "br.cs.omnistack.aircnc",
+      "versionCode": 1
     }
   }
 }

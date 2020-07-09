@@ -12,7 +12,7 @@ async function handleSubmit(email) {
 export default {
     components:{AppContent},
     data() { return {email:''} },
-    created() {
+    beforeCreate() {
         const userId = localStorage.getItem('user')
 
         if(userId) this.$router.push(`/dashboard/${userId}`)

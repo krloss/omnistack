@@ -12,7 +12,7 @@ code frontend
 npm start
 
 npm i expo-cli
-npx expo init mobile
+npx expo i -t blank@37  mobile
 cp /opt/VSCode/bin/code mobile/expo
 vim mobile/expo 
 vim mobile/package.json
