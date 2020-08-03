@@ -13,6 +13,17 @@ module.exports = {
     useNullAsDefault: true
   },
 
+  test: {
+    client: 'sqlite3',
+    connection: {
+      filename: './knex/test.sqlite3'
+    },
+    migrations: {
+      directory: './knex/migrations'
+    },
+    useNullAsDefault: true
+  },
+
   staging: {
     client: 'mysql',
     connection: {
